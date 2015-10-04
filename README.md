@@ -1,1 +1,1 @@
-flulab.pl
+http://flulab.pl
