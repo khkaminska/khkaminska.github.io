@@ -52,7 +52,7 @@ jQuery(document).ready(function() {
         var postdata = $('.subscribe form').serialize();
         $.ajax({
             type: 'POST',
-            url: '../sendmail.php',
+            url: 'assets/sendmail.php',
             data: postdata,
             dataType: 'json',
             success: function(json) {
