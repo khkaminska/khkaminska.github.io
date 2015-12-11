@@ -34,14 +34,14 @@ jQuery(document).ready(function() {
 
     /*
         Tooltips
-    */
+
     $('.social a.facebook').tooltip();
     $('.social a.twitter').tooltip();
     $('.social a.dribbble').tooltip();
     $('.social a.googleplus').tooltip();
     $('.social a.pinterest').tooltip();
     $('.social a.flickr').tooltip();
-
+    */
     /*
         Subscription form
     */
@@ -52,7 +52,7 @@ jQuery(document).ready(function() {
         var postdata = $('.subscribe form').serialize();
         $.ajax({
             type: 'POST',
-            url: 'assets/sendmail.php',
+            url: '../assets/sendmail.php',
             data: postdata,
             dataType: 'json',
             success: function(json) {
