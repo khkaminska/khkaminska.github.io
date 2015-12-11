@@ -1,1 +1,1 @@
-# flulab.pl
+# thervira.pl
