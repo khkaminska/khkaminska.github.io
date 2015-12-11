@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
         Countdown initializer
     */
     var now = new Date();
-    var countTo = 70 * 24 * 60 * 60 * 1000 + now.valueOf();
+    var countTo = "2016/01/20";
     $('.timer').countdown(countTo, function(event) {
         var $this = $(this);
         switch(event.type) {
@@ -52,7 +52,7 @@ jQuery(document).ready(function() {
         var postdata = $('.subscribe form').serialize();
         $.ajax({
             type: 'POST',
-            url: 'assets/sendmail.php',
+            url: './assets/sendmail.php',
             data: postdata,
             dataType: 'json',
             success: function(json) {
