@@ -28,7 +28,7 @@ if($_POST) {
 
         // Send email
 	$subject = 'New Subscriber!';
-	$body = "You have a new subscriber!\n\nEmail: " . $subscriber_email;
+	$body = "You have a new subscriber!\n\nEmail: " . $subscriber_email.;
         // uncomment this to set the From and Reply-To emails, then pass the $headers variable to the "mail" function below
 	//$headers = "From: ".$subscriber_email." <" . $subscriber_email . ">" . "\r\n" . "Reply-To: " . $subscriber_email;
 	mail($emailTo, $subject, $body);
