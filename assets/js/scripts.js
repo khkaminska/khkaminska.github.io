@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
         Countdown initializer
     */
     var now = new Date();
-    var countTo = "2016/01/20";
+    var countTo = "2016/02/20";
     $('.timer').countdown(countTo, function(event) {
         var $this = $(this);
         switch(event.type) {
