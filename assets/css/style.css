@@ -387,8 +387,8 @@ a:focus {
   .frontpage .content.cover { padding: 200px 10px 25px; }
 }
 @media (max-width: 767px) {
-  .frontpage {  }
+  .frontpage .content.cover {  }
 }
 @media (max-width: 480px) {
-  .frontpage { padding: 0px; }
+  .frontpage .content.cover { padding: 0 }
 }
