@@ -391,5 +391,5 @@ a:focus {
   .page .content.cover { background-image: url(../img/cover/contact.png); padding: 100px 0; }
 }
 @media screen and (max-width: 480px) {
-  .page .content.cover { background-image: url(../img/cover/contact.png); padding: 150px 0; }
+  .page .content.cover { background-image: url(../img/cover/contact.png); padding: 0px 0; }
 }
