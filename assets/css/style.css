@@ -390,5 +390,5 @@ a:focus {
   .frontpage .content.cover {  }
 }
 @media (max-width: 480px) {
-  .frontpage .content.cover { padding: 0 }
+  .frontpage .content.cover { padding: 50px }
 }
