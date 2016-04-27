@@ -381,7 +381,7 @@ a:focus {
 }
 /* Responsive style */
 @media(min-width: 1024px) {
-  .frontpage .content.cover { padding: 200px 10px 25px; }
+  .frontpage .content.cover { padding: 400px 10px 25px; }
 }
 @media(min-width: 991px) {
   .frontpage .content.cover { padding: 200px 10px 25px; }
