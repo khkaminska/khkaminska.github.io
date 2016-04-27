@@ -154,7 +154,7 @@ a:focus {
   justify-content:center;
 }
 .frontpage .content.cover {
-  padding: 300px 10px 25px;
+  padding: 400px 10px 25px;
 }
 .frontpage .heading h2 {
   margin-top: 30px;
@@ -381,15 +381,15 @@ a:focus {
 }
 /* Responsive style */
 @media only screen and (min-width: 1024px) {
-  .page .content.cover { background-image: url(../img/cover/home.png); padding: 0 0 510px; }
+  .page .content.cover { background-image: url(../img/cover/home.png); }
 }
 @media(min-width: 991px) {
   .page .content.cover { padding: 50px 0; }
 
 }
 @media screen and (max-width: 767px) {
-  .page .content.cover { background-image: url(../img/cover/contact.png); }
+  .page .content.cover {  }
 }
-@media screen and (max-width: 480px) {
-  .page .content.cover { background-image: url(../img/cover/contact.png); }
+@media @(max-width: 480px) {
+  .page .content { padding: -150px; }
 }
