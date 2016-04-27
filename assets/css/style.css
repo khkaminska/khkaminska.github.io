@@ -154,7 +154,7 @@ a:focus {
   justify-content:center;
 }
 .frontpage .content.cover {
-  padding: 300px 10px 25px;
+  padding: 200px 10px 25px;
 }
 .frontpage .heading h2 {
   margin-top: 30px;
@@ -380,16 +380,15 @@ a:focus {
   color: #222;
 }
 /* Responsive style */
-@media only screen and (min-width: 1024px) {
-  .page .content.cover { background-image: url(../img/cover/home.png); }
+@media(min-width: 1024px) {
+  .frontpage .content.cover { padding: 200px 10px 25px; }
 }
 @media(min-width: 991px) {
-  .page .content.cover { padding: 50px 0; }
-
+  .frontpage .content.cover { padding: 200px 10px 25px; }
 }
-@media screen and (max-width: 767px) {
-  .page .content.cover {  }
+@media only screen and (max-width: 767px) {
+  .frontpage {  }
 }
-@media @(max-width: 480px) {
-  .page .content { padding: 0px; }
+@media (max-width: 480px) {
+  .frontpage { padding: 0px; }
 }
