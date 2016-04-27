@@ -154,7 +154,7 @@ a:focus {
   justify-content:center;
 }
 .frontpage .content.cover {
-  padding: 200px 10px 25px;
+  padding: 400px 10px 25px;
 }
 .frontpage .heading h2 {
   margin-top: 30px;
@@ -380,13 +380,13 @@ a:focus {
   color: #222;
 }
 /* Responsive style */
-@media(min-width: 1024px) {
+@media (min-width: 1024px) {
   .frontpage .content.cover { padding: 400px 10px 25px; }
 }
-@media(min-width: 991px) {
+@media (min-width: 991px) {
   .frontpage .content.cover { padding: 200px 10px 25px; }
 }
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .frontpage {  }
 }
 @media (max-width: 480px) {
