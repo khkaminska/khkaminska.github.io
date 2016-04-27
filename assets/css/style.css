@@ -388,8 +388,8 @@ a:focus {
 
 }
 @media screen and (max-width: 767px) {
-  .page .content.cover { background-image: url(../img/cover/contact.png); padding: 100px 0; }
+  .page .content.cover { background-image: url(../img/cover/contact.png); }
 }
 @media screen and (max-width: 480px) {
-  .page .content.cover { background-image: url(../img/cover/contact.png); padding: 0px 0; }
+  .page .content.cover { background-image: url(../img/cover/contact.png); }
 }
