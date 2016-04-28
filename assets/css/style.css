@@ -353,9 +353,9 @@ a:focus {
 #contact a { display: block }
 #contact i { margin: 40px 0 15px }
 #contact .bottom img {
-  vertical-align: middle;
-  padding: 80px 0 5px;
-
+  padding: 80px 120px 10px 0;
+  width: 100vw;
+  position: static;
 }
 #footer {
   padding: 10px 0;
