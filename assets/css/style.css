@@ -353,15 +353,20 @@ a:focus {
 #contact a { display: block }
 #contact i { margin: 40px 0 15px }
 #contact .bottom img {
-  padding: 80px 120px 10px 0;
+  display: inline-block;
+  padding: 80px;
   width: 100vw;
-  position: static;
 }
 #footer {
   padding: 10px 0;
   color: #444;
   text-align: center;
   background-color: #f5f5f5;
+}
+#footer .bottom img {
+    display: inline-block;
+    padding: 80px;
+    width: 100vw;
 }
 #footer a
 #footer a:hover,
@@ -383,17 +388,17 @@ a:focus {
 /* Retina ready */
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .frontpage .content.cover { padding: 250px 10px 25px; }
+  .frontpage .content.cover { padding: 250px 0px 0px 0px; }
 
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {
-  .frontpage .content.cover { padding: 100px 10px 25px; }
+  .frontpage .content.cover { padding: 150px 0px 0px 0px; }
 
 }
 /* Small devices (tablets, 768px and up) */
-@media @media (min-width: 768px) and (max-width: 991px) {
-  .frontpage .content.cover { padding: 100px 10px 25px; }
+@media @media (min-width: 768px) and (max-width: 992px) {
+  .frontpage .content.cover { padding: 100px 0px 0px 0px; }
 
 }
 /* Extra small devices (phones, less than 768px) */
