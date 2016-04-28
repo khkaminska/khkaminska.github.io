@@ -154,7 +154,7 @@ a:focus {
   justify-content:center;
 }
 .frontpage .content.cover {
-  padding: 200px 10px 25px;
+  padding: 100px 10px 25px;
 }
 .frontpage .heading h2 {
   margin-top: 30px;
@@ -380,19 +380,27 @@ a:focus {
   color: #222;
 }
 /* Responsive style */
+/* Retina ready */
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .frontpage .content.cover { padding: 200px 10px 25px; }
+
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {
   .frontpage .content.cover { padding: 200px 10px 25px; }
+
 }
 /* Small devices (tablets, 768px and up) */
 @media @media (min-width: 768px) and (max-width: 991px) {
   .frontpage .content.cover { padding: 100px 10px 25px; }
+
 }
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 768px) {
-  .frontpage .content.cover {  }
+@media (max-width: 767px) {
+  .frontpage {  }
+
 }
