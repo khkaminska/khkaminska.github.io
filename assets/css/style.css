@@ -381,9 +381,6 @@ a:focus {
 }
 /* Responsive style */
 /* Retina ready */
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .frontpage .content.cover { padding: 200px 10px 25px; }
-}
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .frontpage .content.cover { padding: 250px 10px 25px; }
