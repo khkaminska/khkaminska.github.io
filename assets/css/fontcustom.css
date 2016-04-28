@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "fontcustom";
-  src: url("../fonts/fontcustom_33e91d570f5ab56d7701c24d957461a1.eot");
-  src: url("../fonts/fontcustom_33e91d570f5ab56d7701c24d957461a1.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/fontcustom_33e91d570f5ab56d7701c24d957461a1.woff") format("woff"),
-       url("../fonts/fontcustom_33e91d570f5ab56d7701c24d957461a1.ttf") format("truetype"),
-       url("../fonts/fontcustom_33e91d570f5ab56d7701c24d957461a1.svg#fontcustom") format("svg");
+  src: url("../fonts/fontcustom_437469a2a8f4dbc929756a598cc9c484.eot");
+  src: url("../fonts/fontcustom_437469a2a8f4dbc929756a598cc9c484.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/fontcustom_437469a2a8f4dbc929756a598cc9c484.woff") format("woff"),
+       url("../fonts/fontcustom_437469a2a8f4dbc929756a598cc9c484.ttf") format("truetype"),
+       url("../fonts/fontcustom_437469a2a8f4dbc929756a598cc9c484.svg#fontcustom") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,16 +16,40 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "fontcustom";
-    src: url("../fonts/fontcustom_33e91d570f5ab56d7701c24d957461a1.svg#fontcustom") format("svg");
+    src: url("../fonts/fontcustom_437469a2a8f4dbc929756a598cc9c484.svg#fontcustom") format("svg");
   }
 }
 
 [data-icon]:before { content: attr(data-icon); }
 
 [data-icon]:before,
+.icon-DNA:before,
+.icon-Mendelejew:before,
+.icon-Pi:before,
+.icon-atom:before,
+.icon-bojemsiemkrwi:before,
+.icon-diploma:before,
+.icon-globus:before,
+.icon-graduacja:before,
+.icon-gwiazdor:before,
+.icon-jablko:before,
+.icon-kalkulus:before,
+.icon-maly_chemik:before,
+.icon-microscope:before,
+.icon-molekula:before,
+.icon-mozdiez:before,
+.icon-notes:before,
+.icon-piguly:before,
 .icon-piguly_2:before,
+.icon-pisadlo:before,
+.icon-prawiemetan:before,
 .icon-probowy:before,
-.icon-procek_2:before {
+.icon-procek:before,
+.icon-procek_2:before,
+.icon-radiation:before,
+.icon-saturnus-ai:before,
+.icon-wajalsy:before,
+.icon-zarowa:before {
   display: inline-block;
   font-family: "fontcustom";
   font-style: normal;
@@ -40,6 +64,30 @@
   font-smoothing: antialiased;
 }
 
-.icon-piguly_2:before { content: "\f100"; }
+.icon-DNA:before { content: "\f103"; }
+.icon-Mendelejew:before { content: "\f104"; }
+.icon-Pi:before { content: "\f105"; }
+.icon-atom:before { content: "\f106"; }
+.icon-bojemsiemkrwi:before { content: "\f107"; }
+.icon-diploma:before { content: "\f108"; }
+.icon-globus:before { content: "\f109"; }
+.icon-graduacja:before { content: "\f10a"; }
+.icon-gwiazdor:before { content: "\f10b"; }
+.icon-jablko:before { content: "\f10c"; }
+.icon-kalkulus:before { content: "\f10d"; }
+.icon-maly_chemik:before { content: "\f10e"; }
+.icon-microscope:before { content: "\f10f"; }
+.icon-molekula:before { content: "\f110"; }
+.icon-mozdiez:before { content: "\f111"; }
+.icon-notes:before { content: "\f112"; }
+.icon-piguly:before { content: "\f100"; }
+.icon-piguly_2:before { content: "\f113"; }
+.icon-pisadlo:before { content: "\f114"; }
+.icon-prawiemetan:before { content: "\f115"; }
 .icon-probowy:before { content: "\f101"; }
-.icon-procek_2:before { content: "\f102"; }
+.icon-procek:before { content: "\f102"; }
+.icon-procek_2:before { content: "\f116"; }
+.icon-radiation:before { content: "\f117"; }
+.icon-saturnus-ai:before { content: "\f118"; }
+.icon-wajalsy:before { content: "\f119"; }
+.icon-zarowa:before { content: "\f11a"; }
