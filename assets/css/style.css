@@ -130,7 +130,7 @@ a:focus {
   margin: 0 auto;
   background-color: #28AAE1;
 }
-.page .heading p { margin: 20px auto 0 }
+.page .heading p { margin: 60px auto 0 }
 .frontpage {
   background: url(../img/cover/home.png) no-repeat;
   background-size: cover;
@@ -354,7 +354,7 @@ a:focus {
 #contact i { margin: 40px 0 15px }
 #contact .bottom img {
   display: inline-block;
-  padding: 80px;
+  padding: 50px;
   width: 100vw;
 }
 #footer {
@@ -365,7 +365,7 @@ a:focus {
 }
 #footer .bottom img {
     display: inline-block;
-    padding: 80px;
+    padding: 50px;
     width: 100vw;
 }
 #footer a
