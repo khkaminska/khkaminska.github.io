@@ -1,7 +1,7 @@
 body {
   font-family: 'Titillium Web', sans-serif;
   color: #444;
-  font-weight: 400;
+  font-weight: 200;
 }
 h1,
 h2,
@@ -354,7 +354,7 @@ a:focus {
 #contact i { margin: 40px 0 15px }
 #contact .bottom img {
   display: inline-block;
-  padding: 50px;
+  padding: 60px;
   width: 100vw;
 }
 #footer {
@@ -365,7 +365,7 @@ a:focus {
 }
 #footer .bottom img {
     display: inline-block;
-    padding: 50px;
+    padding: 60px;
     width: 100vw;
     max-width: 1000px;
 }
@@ -386,7 +386,6 @@ a:focus {
   color: #222;
 }
 /* Responsive style */
-/* Retina ready */
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .frontpage .content.cover { padding: 250px 0px 0px 0px; }
