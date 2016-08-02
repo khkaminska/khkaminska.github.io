@@ -313,7 +313,7 @@ h6,
   -webkit-filter: grayscale(100%);
   opacity: 0.7;
   filter: alpha(opacity=70);
-  -webkit-transition: all .5s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
 }
 #featured .logos img:hover {
   filter: none;
