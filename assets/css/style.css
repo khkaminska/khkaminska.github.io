@@ -1,9 +1,13 @@
 body {
   font-family: 'Titillium Web', sans-serif;
   color: #444;
+<<<<<<< HEAD
   font-weight: 100;
   text-shadow: none;
   text-decoration: none;
+=======
+  font-weight: 200;
+>>>>>>> 2dc53151bf0e1d098ccc1d253d6ea46fd6a8f05a
 }
 h1,
 h2,
