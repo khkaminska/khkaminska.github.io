@@ -1,7 +1,9 @@
 body {
   font-family: 'Titillium Web', sans-serif;
   color: #444;
-  font-weight: 400;
+  font-weight: 100;
+  text-shadow: none;
+  text-decoration: none;
 }
 h1,
 h2,
@@ -9,11 +11,9 @@ h3,
 h4,
 h5,
 h6,
-a { color: #2d2d2d }
-a:hover,
-a:focus {
-  color: #28AAE1;
-  text-decoration: none;
+
+.page h2 {
+  color: #2d2d2d;
 }
 .hiding { opacity: 0 }
 .showing { opacity: 1 }
@@ -23,7 +23,7 @@ a:focus {
           border-radius: 8px;
 }
 .btn {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
   -webkit-border-radius: 2px;
@@ -35,8 +35,10 @@ a:focus {
           transition: all .2s;
 }
 .btn-blue {
-  color: #fff;
-  background-color: #28AAE1;
+  color: #28AAE1;#006789
+  background-color: #fff;
+  border: 2px solid #28AAE1;
+  padding: 10px 28px;
 }
 .btn-blue:hover,
 .btn-blue:focus {
@@ -121,18 +123,18 @@ a:focus {
   padding: 0 10px 25px;
 }
 .page .heading h2 {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 .page .border {
-  width: 150px;
+  width: 200px;
   height: 2px;
   margin: 0 auto;
   background-color: #28AAE1;
 }
 .page .heading p { margin: 60px auto 0 }
 .frontpage {
-  background: url(../img/cover/home.png) no-repeat;
+  background: url(../img/cover/home.jpg) no-repeat;
   background-size: cover;
   position: relative;
   overflow: hidden;
@@ -178,12 +180,15 @@ a:focus {
   margin-top: 20px;
   margin-bottom: 20px;
   vertical-align: middle;
+  text-transform: uppercase;
+  padding-bottom: 10px;
 }
 #home
 .teamlogo {
   display: inline-block;
-  padding: 0 0 20px;
   position: relative;
+  padding-bottom: 20px;
+  width: 300px;
 }
 #services {
   background-color: #f5f5f5;
@@ -195,7 +200,10 @@ a:focus {
 }
 #services .service:hover i { color: #28AAE1 }
 #work .heading p { margin-bottom: 60px }
-#portfolio { width: 100% }
+#portfolio {
+  width: 100%;
+  border-bottom: solid 1px #e7e7e7;
+}
 #portfolio .filters { margin-bottom: 20px }
 #portfolio .filters li a {
   color: #999;
@@ -203,7 +211,7 @@ a:focus {
   text-transform: uppercase;
 }
 #portfolio .filters li a:hover,
-#portfolio .filters li a:focus { color: #333 }
+#portfolio .filters li a:focus { color: #28AAE1 }
 #portfolio .filters li a.active { color: #0093cf }
 #portfolio .items { margin-bottom: 0 }
 #portfolio .items li {
@@ -248,21 +256,16 @@ a:focus {
        -o-transform: scale(1.1);
           transform: scale(1.1);
 }
-#clients {
-  color: #444;
+#newsroom {
+  color: #2d2d2d;
   background-color: #f5f5f5;
+  border-bottom: solid 1px #e7e7e7;
 }
-#testimonials .item { margin-bottom: 30px }
-#testimonials .quote {
-  padding: 0 90px;
-  font-size: 16px;
+#news a {
+  color: #2d2d2d;
+  padding-bottom: 40px;
 }
-#testimonials .quote:before {
-  margin-right: 10px;
-  content: '\f10d';
-}
-#testimonials .client { color: #444 }
-#testimonials .carousel-indicators li {
+#news .carousel-indicators li {
   width: 9px;
   height: 9px;
   border-color: #a6a6a6;
@@ -274,28 +277,45 @@ a:focus {
        -o-transition: all 0.25s linear;
           transition: all 0.25s linear;
 }
-#testimonials .carousel-indicators li:hover,
-#testimonials .carousel-indicators li:focus { border-color: #fff }
-#testimonials .carousel-indicators .active {
+#news .carousel-indicators li:focus { border-color: #2d2d2d }
+#news .carousel-indicators .active {
   width: 9px;
   height: 9px;
   margin: 1px;
-  background-color: #71be3c;
-  border-color: #fff;
+  background-color: #28AAE1;
+  border-color: #2d2d2d;
 }
-#testimonials .carousel-indicators {
+#news .carousel-indicators {
   bottom: 0;
   margin-bottom: 0;
 }
-#testimonials .carousel-control {
-  top: 15%;
-  width: 0%;
-  display: none;
-  font-size: 40px;
-  background-image: none;
-  text-shadow: none;
+#news .carousel-control {
+  width: auto;
+  color: #2d2d2d;
 }
-#about .content { padding-bottom: 0 }
+#news .carousel-control.left {
+  margin-left: -45px;
+}
+#news .carousel-control.right {
+  margin-right: -45px;
+}
+#featured {
+  border-bottom: solid 1px #e7e7e7;
+}
+#featured .logos {
+  display: inline-block;
+  width:100%;
+  padding-top: 50px;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+#about {
+  border-bottom: solid 1px #e7e7e7;
+}
+#about .content {
+  padding-bottom: 0;
+}
 #about .teammate {
   margin-top: 60px;
   margin-bottom: 60px;
@@ -337,7 +357,6 @@ a:focus {
 #contact .iimcb p {
   padding-top: 20px;
 }
-
 #contact {
   /*background: url(../img/cover/contact.png);*/
   background-color: #f5f5f5;
@@ -347,14 +366,16 @@ a:focus {
 }
 #contact,
 #contact a,
-#contact a:hover,
-#contact a:focus { color: #444 }
+#contact a:focus {
+  color: #444;
+  text-decoration: none;
+}
 #contact .heading .border { background-color: #28AAE1 }
 #contact a { display: block }
 #contact i { margin: 40px 0 15px }
 #contact .bottom img {
   display: inline-block;
-  padding: 50px;
+  padding: 60px;
   width: 100vw;
 }
 #footer {
@@ -365,44 +386,40 @@ a:focus {
 }
 #footer .bottom img {
     display: inline-block;
-    padding: 50px;
+    padding: 60px;
     width: 100vw;
+    max-width: 1000px;
 }
 #footer a
 #footer a:hover,
 #footer a:focus { color: #28AAE1 }
 #footer .social { margin-bottom: 20px }
 #footer .social li .facebook:hover,
-#footer .social li .facebook:focus { color: #3b5998 }
+#footer .social li .facebook:focus { color: #28AAE1 }
 #footer .social li .twitter:hover,
-#footer .social li .twitter:focus { color: #00aced }
+#footer .social li .twitter:focus { color: #28AAE1 }
 #footer .social li .google-plus:hover,
-#footer .social li .google-plus:focus { color: #d34836 }
+#footer .social li .google-plus:focus { color: #28AAE1 }
 #footer .social li .dribbble:hover,
-#footer .social li .dribbble:focus { color: #ea4c89 }
+#footer .social li .dribbble:focus { color: #28AAE1 }
 #footer .copyright { margin-bottom: 0 }
 .work .title {
   color: #222;
 }
 /* Responsive style */
-/* Retina ready */
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .frontpage .content.cover { padding: 250px 0px 0px 0px; }
-
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {
   .frontpage .content.cover { padding: 150px 0px 0px 0px; }
-
 }
 /* Small devices (tablets, 768px and up) */
 @media @media (min-width: 768px) and (max-width: 992px) {
   .frontpage .content.cover { padding: 100px 0px 0px 0px; }
-
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .frontpage { }
-
 }

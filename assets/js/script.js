@@ -117,3 +117,9 @@ $('.email').click(function(e) {
 	addr = $(e.target)[0].id;
 	location.href = "mailto:" + addr + "@thervira.com?subject=hello";
 });
+
+$(function () {
+    $('#news').carousel({
+        interval: 4000
+    });
+});
