@@ -1,13 +1,10 @@
 body {
   font-family: 'Titillium Web', sans-serif;
   color: #444;
-<<<<<<< HEAD
   font-weight: 100;
   text-shadow: none;
   text-decoration: none;
-=======
   font-weight: 200;
->>>>>>> 2dc53151bf0e1d098ccc1d253d6ea46fd6a8f05a
 }
 h1,
 h2,
@@ -311,6 +308,7 @@ h6,
   width:100%;
   padding-top: 50px;
   filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
   opacity: 0.7;
   filter: alpha(opacity=70); /* For IE8 and earlier */
 }
