@@ -434,5 +434,5 @@ h6,
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
-  .frontpage { }
+  .frontpage .portal-logos { width: 33%; max-width: 180px; }
 }
