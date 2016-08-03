@@ -364,10 +364,10 @@ h6,
 #about .teammate .bio a:hover,
 #about .teammate .bio a:focus { color: #28AAE1 }
 #contact .iimcb a {
-  padding-top: 60px;
-}
-#contact .iimcb p {
   padding-top: 20px;
+}
+#contact .fa:hover {
+  color: #28AAE1;
 }
 #contact {
   /*background: url(../img/cover/contact.png);*/
@@ -377,19 +377,18 @@ h6,
   background-size: cover;
 }
 #contact,
-#contact a,
-#contact a:focus {
+#contact a {
   color: #444;
+}
+#contact a:hover {
+  color: #28AAE1;
   text-decoration: none;
-
 }
 #contact .heading .border { background-color: #28AAE1 }
 #contact a { display: block }
 #contact i { margin: 40px 0 15px }
-#contact .bottom img {
-  display: inline-block;
-  padding: 60px;
-  width: 100vw;
+#contact img {
+  padding-top: 80px;
 }
 #footer {
   padding: 10px 0;
