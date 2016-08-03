@@ -381,6 +381,7 @@ h6,
 #contact a:focus {
   color: #444;
   text-decoration: none;
+
 }
 #contact .heading .border { background-color: #28AAE1 }
 #contact a { display: block }
@@ -425,7 +426,7 @@ h6,
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {
-  .frontpage .content.cover { padding: 150px 0px 0px 0px; }
+  .frontpage .content.cover { padding: 300px 0px 0px 0px; }
 }
 /* Small devices (tablets, 768px and up) */
 @media @media (min-width: 768px) and (max-width: 992px) {
