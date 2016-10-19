@@ -115,7 +115,7 @@ function handleTweets(tweets) {
 $('.email').click(function(e) {
 	e.preventDefault();
 	addr = $(e.target)[0].id;
-	location.href = "mailto:" + addr + "@thervira.com?subject=hello";
+	location.href = "mailto:" + addr + "@thervira.com";
 });
 
 $(function () {

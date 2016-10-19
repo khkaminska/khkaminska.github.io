@@ -386,9 +386,16 @@ h6,
 }
 #contact .heading .border { background-color: #28AAE1 }
 #contact a { display: block }
-#contact i { margin: 40px 0 15px }
+#contact i { margin: 60px 0 15px }
 #contact img {
   padding-top: 80px;
+}
+#contact .iimcb img {
+  padding: 100px 10px 20px;
+}
+#contact .iimcb a {
+  color: #444;
+  text-decoration: none;
 }
 #footer {
   padding: 10px 0;
