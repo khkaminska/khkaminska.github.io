@@ -440,8 +440,7 @@ h6,
 }
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .frontpage .content.cover { padding: 250px 0px 0px 0px;
-  background-attachment: fixed; }
+  .frontpage .content.cover { padding: 250px 0px 0px 0px; }
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
