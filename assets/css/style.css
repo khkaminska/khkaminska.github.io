@@ -135,7 +135,7 @@ h6,
 }
 .page .heading p { margin: 60px auto 0 }
 .frontpage {
-  background: url(../img/cover/home_grey.png) no-repeat fixed;
+  background: url(../img/cover/home_grey.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -303,12 +303,8 @@ h6,
 #featured {
   border-bottom: solid 1px #e7e7e7;
   background: url(../img/cover/home_grey.png) no-repeat fixed;
-  background-position: center center;
-  background-size: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  overflow: hidden;
+  background-position: center;
+  background-size: cover;
 }
 #featured .logos {
   display: inline-block;
@@ -332,13 +328,8 @@ h6,
 #about {
   border-bottom: solid 1px #e7e7e7;
   background: url(../img/cover/home_grey.png) no-repeat fixed;
-  background-position: center center;
-  background-size: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  overflow: hidden;
-}
+  background-position: center;
+  background-size: cover;}
 #about .content {
   padding-bottom: 0;
 }
