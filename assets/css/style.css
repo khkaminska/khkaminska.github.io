@@ -138,7 +138,6 @@ h6,
   background: url(../img/cover/home_grey.png) no-repeat fixed;
   background-position: center center;
   overflow: hidden;
-  width: 100%;
   height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -154,10 +153,10 @@ h6,
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack:center;
-  -webkit-justify-content:center;
-  -ms-flex-pack:center;
-  justify-content:center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 .frontpage .content.cover {
   padding: 150px 10px 25px;
@@ -307,12 +306,12 @@ h6,
   border-bottom: solid 1px #e7e7e7;
   background: url(../img/cover/home_grey.png) no-repeat fixed;
   background-position: center center;
+  background-size: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
-  width: 100%;
 }
 #featured .logos {
   display: inline-block;
@@ -342,7 +341,6 @@ h6,
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden;
-  width: 100%;
 }
 #about .content {
   padding-bottom: 0;
@@ -455,7 +453,8 @@ h6,
 }
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .frontpage .content.cover { padding: 250px 0px 0px 0px; }
+  .frontpage .content.cover { padding: 250px 0px 0px 0px;
+  background-attachment: fixed; }
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
