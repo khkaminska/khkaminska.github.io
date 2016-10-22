@@ -135,14 +135,10 @@ h6,
 }
 .page .heading p { margin: 60px auto 0 }
 .frontpage {
-  background: url(../img/cover/home_grey.png) no-repeat fixed;
-  background-position: center center;
-  overflow: hidden;
-  height: 100vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url(../img/cover/home_grey.png) no-repeat;
+  background-position: center;
   background-size: cover;
+  height: 100vh;
 }
 .frontpage { overflow: hidden; }
 .frontpage .content {
@@ -310,7 +306,6 @@ h6,
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
   overflow: hidden;
 }
 #featured .logos {
@@ -340,7 +335,6 @@ h6,
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
   overflow: hidden;
 }
 #about .content {
