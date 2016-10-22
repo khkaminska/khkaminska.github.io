@@ -137,6 +137,7 @@ h6,
 .frontpage {
   background: url(../img/cover/home_grey.png) no-repeat fixed;
   background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
   height: 100vh;
