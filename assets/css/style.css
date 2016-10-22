@@ -445,7 +445,7 @@ h6,
   .frontpage .content.cover { padding: 300px 0px 0px 0px; }
 }
 /* Small devices (tablets, 768px and up) */
-@media @media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .frontpage .content.cover { padding: 100px 0px 0px 0px; }
 }
 /* Extra small devices (phones, less than 768px) */
