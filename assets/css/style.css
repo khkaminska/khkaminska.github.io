@@ -329,7 +329,8 @@ h6,
   border-bottom: solid 1px #e7e7e7;
   background: url(../img/cover/home_grey.png) no-repeat fixed;
   background-position: center;
-  background-size: cover;}
+  background-size: cover;
+}
 #about .content {
   padding-bottom: 0;
 }
@@ -441,7 +442,8 @@ h6,
 }
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .frontpage .content.cover { padding: 250px 0px 0px 0px; }
+  .frontpage .content.cover { padding: 250px 0px 0px 0px;
+  background-attachment: scroll; }
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
