@@ -306,7 +306,6 @@ h6,
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: auto;
 }
 #featured .logos {
   display: inline-block;
@@ -333,7 +332,6 @@ h6,
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: auto;
 }
 #about .content {
   padding-bottom: 0;
