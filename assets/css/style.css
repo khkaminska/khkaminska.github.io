@@ -302,7 +302,7 @@ h6,
 }
 #featured {
   border-bottom: solid 1px #e7e7e7;
-  background: url(../img/cover/home_grey.png) no-repeat fixed;
+  background: url(../img/cover/home_grey.png) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -327,7 +327,7 @@ h6,
 }
 #about {
   border-bottom: solid 1px #e7e7e7;
-  background: url(../img/cover/home_grey.png) no-repeat fixed;
+  background: url(../img/cover/home_grey.png) no-repeat;
   background-position: center;
   background-size: cover;
 }
