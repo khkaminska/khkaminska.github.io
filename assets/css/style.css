@@ -307,7 +307,6 @@ h6,
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  height: 100vh;
 }
 #featured .logos {
   display: inline-block;
@@ -335,7 +334,6 @@ h6,
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  height: 100vh;
 }
 #about .content {
   padding-bottom: 0;
