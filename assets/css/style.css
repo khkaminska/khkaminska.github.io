@@ -302,11 +302,9 @@ h6,
 }
 #featured {
   border-bottom: solid 1px #e7e7e7;
-  background: url(../img/cover/home_grey.png);
+  background: url(../img/cover/home_grey.png) no-repeat fixed;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  overflow: scroll;
 }
 #featured .logos {
   display: inline-block;
@@ -329,11 +327,9 @@ h6,
 }
 #about {
   border-bottom: solid 1px #e7e7e7;
-  background: url(../img/cover/home_grey.png);
+  background: url(../img/cover/home_grey.png) no-repeat fixed;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  overflow: scroll;
 }
 #about .content {
   padding-bottom: 0;
