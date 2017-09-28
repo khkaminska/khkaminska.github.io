@@ -1,6 +1,7 @@
 body {
   font-family: 'Titillium Web', sans-serif;
   color: #444;
+  font-weight: 100;
   text-shadow: none;
   text-decoration: none;
   font-weight: 200;
@@ -11,11 +12,10 @@ h3,
 h4,
 h5,
 h6,
+
 .page h2 {
   color: #2d2d2d;
 }
-.heading .border {
-  margin: 4em auto; }
 .hiding { opacity: 0 }
 .showing { opacity: 1 }
 .img-rounded {
@@ -24,7 +24,7 @@ h6,
           border-radius: 8px;
 }
 .btn {
-  font-size: 1.7em;
+  font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
   -webkit-border-radius: 2px;
@@ -36,10 +36,10 @@ h6,
           transition: all .2s;
 }
 .btn-blue {
-  color: #28AAE1;
+  color: #28AAE1;#006789
   background-color: #fff;
-  border: 1px solid #28AAE1;
-  padding: 0.5em 1.2em;
+  border: 2px solid #28AAE1;
+  padding: 10px 28px;
 }
 .btn-blue:hover,
 .btn-blue:focus {
@@ -95,10 +95,6 @@ h6,
   font-weight: 600;
   text-transform: uppercase;
 }
-.navbar-brand img {
-   height: 1.2em;
-   width: 8.7em;
-}
 .navbar-default .navbar-nav > li > a {
   font-weight: 600;
   text-transform: uppercase;
@@ -134,7 +130,7 @@ h6,
 .page .border {
   width: 200px;
   height: 2px;
-  margin: auto auto;
+  margin: 0 auto;
   background-color: #28AAE1;
 }
 .page .heading p { margin: 60px auto 0 }
@@ -160,31 +156,40 @@ h6,
   -ms-flex-pack: center;
   justify-content: center;
 }
+.frontpage .content.cover {
+  padding: 150px 10px 25px;
+}
+.frontpage .heading h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .frontpage .border {
   width: 150px;
   height: 2px;
   margin: 0 auto;
   background-color: #28AAE1;
 }
-.frontpage .heading p { margin: auto auto 0 }
+.frontpage .heading p { margin: 20px auto 0 }
 #home h1 {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 2em;
+  font-size: 80px;
 }
 #home a { margin: 0 5px }
 #home h3 {
   display: block;
-  margin-top: 2em;
-  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  vertical-align: middle;
   text-transform: uppercase;
-  padding-bottom: 2em;
-  font-size: 2em;
+  padding-bottom: 10px;
 }
 #home
 .teamlogo {
   display: inline-block;
-  width: 30em;
+  position: relative;
+  padding-bottom: 20px;
+  width: 300px;
 }
 #services {
   background-color: #f5f5f5;
@@ -192,9 +197,8 @@ h6,
   overflow: hidden;
 }
 #services .service i {
-  font-size: 5em;
+  font-size: 72px;
 }
-#services p { font-size: 1.1em; }
 #services .service:hover i { color: #28AAE1 }
 #work .heading p { margin-bottom: 60px }
 #portfolio {
@@ -207,7 +211,6 @@ h6,
   font-weight: 600;
   text-transform: uppercase;
 }
-#portfolio p { font-size: 1.1em; }
 #portfolio .filters li a:hover,
 #portfolio .filters li a:focus { color: #28AAE1 }
 #portfolio .filters li a.active { color: #0093cf }
@@ -258,11 +261,10 @@ h6,
   color: #2d2d2d;
   background-color: #f5f5f5;
   border-bottom: solid 1px #e7e7e7;
-  font-size: 1.1em;
 }
 #news a {
   color: #2d2d2d;
-  font-size: 1.1em;
+  padding-bottom: 40px;
 }
 #news .carousel-indicators li {
   width: 9px;
@@ -293,10 +295,10 @@ h6,
   color: #2d2d2d;
 }
 #news .carousel-control.left {
-  margin-left: -2em;
+  margin-left: -45px;
 }
 #news .carousel-control.right {
-  margin-right: -2em;
+  margin-right: -45px;
 }
 #featured {
   border-bottom: solid 1px #e7e7e7;
@@ -306,8 +308,8 @@ h6,
 }
 #featured .logos {
   display: inline-block;
-  width: 100%;
-  padding-top: 3em;
+  width:100%;
+  padding-top: 50px;
 }
 #featured .logos img {
   filter: grayscale(100%);
@@ -329,22 +331,14 @@ h6,
   background-position: center;
   background-size: cover;
 }
-#about p { font-size: 1.1em; }
 #about .content {
-  padding-bottom: 2em;
-  display: inline-block;
+  padding-bottom: 0;
 }
 #about .teammate {
-  margin-top: 2.2em;
-  min-height: 40em;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
-#about .teammate .bio {
-  padding-top: 1em; }
-#about .row { display: inline-block; }
-#about .teammate .bio ul {
-  margin-bottom: 0;
-  font-size: 1.2em;
-}
+#about .teammate .bio { padding-top: 10px }
 #about .teammate .profile-photo {
   overflow: hidden;
   display: inline-block;
@@ -366,10 +360,11 @@ h6,
 }
 #about .teammate .bio .border {
   height: 1px;
-  margin: 20px auto;
+  margin: 15px auto;
 }
-#about .container .heading .border {
-  margin: 2em auto;
+#about .teammate .bio ul {
+  margin-bottom: 0;
+  font-size: 16px;
 }
 #about .teammate .bio a { color: #444 }
 #about .teammate .bio a:hover,
@@ -391,21 +386,15 @@ h6,
 #contact a {
   color: #444;
 }
-#contact { font-size: 1.1em; }
 #contact a:hover {
   color: #28AAE1;
   text-decoration: none;
 }
-#contact .heading .border {
-  background-color: #28AAE1 }
-#contact a {
-  display: block;
-}
-#contact i {
-  margin: 60px 0 15px
-}
+#contact .heading .border { background-color: #28AAE1 }
+#contact a { display: block }
+#contact i { margin: 60px 0 15px }
 #contact img {
-  padding-top: 0em;
+  padding-top: 80px;
 }
 #contact .iimcb img {
   padding: 100px 10px 20px;
@@ -419,12 +408,10 @@ h6,
   color: #444;
   text-align: center;
   background-color: #f5f5f5;
-  font-size: 1.1em;
 }
 #footer .bottom img {
     display: inline-block;
-    padding-top: 10em;
-    padding-bottom: 4em;
+    padding: 60px;
     width: 100vw;
     max-width: 1000px;
 }
@@ -447,20 +434,18 @@ h6,
 /* Responsive style */
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .frontpage .content.cover { position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; }
+  .frontpage .content.cover { padding: 250px 0px 0px 0px; }
 }
 /* Medium devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .frontpage .content.cover { position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; }
+  .frontpage .content.cover { padding: 250px 0px 0px 0px; }
 }
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .frontpage .content.cover { position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; }
-  .frontpage .bottom { background-image:url=("assets/img/cover/small.png") }
+  .frontpage .content.cover { padding: 250px 0px 0px 0px;
+  background-attachment: scroll; }
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
-  .frontpage .content.cover { position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; }
   .frontpage .portal-logos { width: 33%; max-width: 180px; }
-  .frontpage .bottom { background-image:url=("assets/img/cover/small.png") }
 }
