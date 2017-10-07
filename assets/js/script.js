@@ -88,7 +88,7 @@ $(document).ready(function () {
     initPortfolio();
     initAnimations();
 });
-$(window).load(function () {
+$(window).on('load', function () {
     $(".loader .fading-line").fadeOut();
     $(".loader").fadeOut("slow");
 });
