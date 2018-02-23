@@ -83,35 +83,15 @@ function initAnimations() {
 	});
 }
 
-function initTwitterFeed() {
-    /* More about fetch params on http://www.jasonmayes.com/projects/twitterApi
-    to be added later on */
-    twitterFetcher.fetch('500674157688782849', '', 1, true, false, false, '', true, handleTweets, false);
-}
 $(document).ready(function () {
     initNavbar();
     initPortfolio();
     initAnimations();
-    initTwitterFeed();
 });
-$(window).load(function () {
+$(window).on('load', function () {
     $(".loader .fading-line").fadeOut();
     $(".loader").fadeOut("slow");
 });
-function handleTweets(tweets) {
-    var element = document.getElementById('feed');
-    if (element) {
-        var x = tweets.length;
-        var n = 0;
-        var html = '<ul class="list-inline">';
-        while (n < x) {
-            html += '<li>' + tweets[n] + '</li>';
-            n++;
-        }
-        html += '</ul>';
-        element.innerHTML = html;
-    }
-}
 $('.email').click(function(e) {
 	e.preventDefault();
 	addr = $(e.target)[0].id;
